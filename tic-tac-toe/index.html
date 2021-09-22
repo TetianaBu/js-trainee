@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Modules</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>TIC-TAC-TOE</h1>
+    </header>
+    <div class="btns-wrapper">
+      <button id="new-round-btn" class="btn">New Round</button>
+      <button id="reset-btn" class="btn">Reset</button>
+    </div>
+    <div class="game-container">
+      <div class="game-field">
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div>
+      </div>
+      <div class="scors-wrapper">
+        <div class="message-before-game"><span id="message-before-start">Click "NEW ROUND" to start</span></div>
+        <div class="scors-hidden">
+          <div class="player-1-wrapper">
+            <span id="player-1-name">Click "new game" to start</span>
+            <span id="player-1-status">You can win!</span>
+          </div>
+          <div class="player-2-wrapper">
+            <span id="player-2-name">Click "new game" to start</span>
+            <span id="player-2-status">You can win!</span>
+          </div>
+        </div>
+      </div>
+      <div class="draw"><span>Game ended in a draw!</span></div>
+      <div class="message-after-game"><span></span></div>
+    </div>
+
+  </div>
+</body>
+
+</html>
