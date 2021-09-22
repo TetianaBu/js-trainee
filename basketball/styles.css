@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.game-wrapper, .images-wrapper {
+  margin: 20px 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images-wrapper {
+  position: relative;
+}
+
+.court {
+  width: 600px;
+  height: 330px;
+}
+
+.score-handler {
+  display: flex;
+  width: 600px;
+  justify-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5px 10px;
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: calc(50% - 20px);
+}
+
+.alert-message {
+  font-size: 12px;
+  font-weight: bold;
+}
