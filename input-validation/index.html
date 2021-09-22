@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>input validation - dom</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div>
+    <div class="form-wrapper">
+      <p class="form-message">Enter your phone number:</p>
+      <form name="phone-handler" class="phone-form">
+        <input type="tel" id="phone" name="phone" placeholder="Type phone number in format +380*********" required>
+        <button type="button" class="send-phone" disabled>SEND</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

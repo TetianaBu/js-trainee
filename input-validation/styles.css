@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.form-wrapper {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-message {
+  border: 1px solid black;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 310px;
+}
+.phone-form {
+  width: 310px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+#phone {
+  width: 250px;
+  align-self: start;
+  min-height: 30px;
+  font-size: 8px;
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.send-phone {
+  min-height: 30px;
+}
