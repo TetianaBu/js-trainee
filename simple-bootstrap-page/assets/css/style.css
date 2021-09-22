@@ -1,0 +1,64 @@
+﻿* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.bg-image {
+  background-image: url("../img/nicolette-meade-unsplash.jpg");
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-footer-ful {
+  background-color: #501970;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-header {
+  background-color: #501970;
+}
+
+.line {
+  width: 53px;
+  height: 0;
+  border: 1px solid #501970;
+  margin: 3px;
+  display: inline-block;
+}
+
+.bg-img-btn {
+  background-color: #501970;
+  border-radius: 50%;
+}
+
+.padding-img {
+  padding-bottom: 32.5px;
+}
+
+.positioning {
+  top: 5px;
+  right: 20px;
+}
+
+p, address {
+  font-size: 12px;
+}
+
+.border-bottom {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0%;
+}
