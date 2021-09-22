@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rock - scissors - paper</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="main-section">
+        <h1>Let’s play!</h1>
+        <div class="game-board">
+          <button id="rock" class="button-with-img">
+            <img src="src/img/rock.png" alt="Rock" />
+          </button>
+          <button id="scissors" class="button-with-img">
+            <img src="./src/img/scissors.png" alt="Scissors" />
+          </button>
+          <button id="papper" class="button-with-img">
+            <img src="src/img/papper.png" alt="Paper" />
+          </button>
+        </div>
+        <div class="message-wrapper">
+        <span id="game-status" class="game-status">Choose one to start!</span>
+        </div>
+        <div class="reset-wrapper">
+          <button id="reset" class="resetBtn">RESET</button>
+        </div>
+      </section>
+      <aside class="rules-wrapper">
+        <h3>Rules</h3>
+        <p>Simple as it is!</p>
+        <hr>
+        <ul>
+          <li>Rock wins against scissors.</li>
+          <li>Scissors wins against paper.</li>
+          <li>Paper wins against rock.</li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>

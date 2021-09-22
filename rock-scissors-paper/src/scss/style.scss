@@ -1,0 +1,115 @@
+$defaultLigtColor: #ffffff;
+$defaultDarkColor: #21232e;
+$violet: #926aa6;
+$darkBlue: #0f4c81;
+$lightGrey: #939597;
+$lightGreen: #00a170;
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-v15-latin-regular.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(120deg, $darkBlue, $violet);
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  min-width: 250px;
+  h1,
+  h3,
+  p {
+    text-align: center;
+  }
+  h1 {
+    color: $defaultLigtColor;
+    background-color: $darkBlue;
+    padding: 5px 20px;
+    border-radius: 12px;
+    border: 1px solid $violet;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  max-width: 900px;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.main-section {
+  margin: 2rem;
+  .game-board {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+  .button-with-img {
+    border: 1px solid #faed3d;
+    border-radius: 50%;
+    padding: 30px;
+    margin: 10px;
+    background-color: $darkBlue;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.message-wrapper {
+  display: flex;
+  justify-items: center;
+  .game-status {
+    background-color: $violet;
+    color: $defaultLigtColor;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    border-radius: 12px;
+    padding: 5px 15px;
+  }
+}
+
+.rules-wrapper {
+  background-color: $violet;
+  color: $defaultLigtColor;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 4rem 2rem;
+  border-radius: 12px;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin-top: 1rem;
+    list-style-type: none;
+    text-align: center;
+  }
+  p {
+    margin: 0;
+    font-size: small;
+    color: #faed3d;
+  }
+  h3 {
+    color: #faed3d;
+    margin-bottom: 0;
+  }
+  hr {
+    display: flex;
+    margin: 10px 0;
+    align-self: stretch;
+  }
+}

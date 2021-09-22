@@ -1,0 +1,14 @@
+@media (max-width: 650px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .rules-wrapper {
+    margin: 2rem;
+  }
+}
+@media (max-width: 350px) {
+  .button-with-img {
+    padding: 15px;
+  }
+}
