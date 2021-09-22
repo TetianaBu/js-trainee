@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.colorfull-table {
+  margin: 20px auto;
+  align-self: center;
+  background-color: white;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.colorfull-table td, .colorfull-table th {
+  border: 1px solid #ddd;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-weight: normal;
+}
